@@ -1,21 +1,21 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'PT Mono', monospace;
     box-sizing: border-box;
 
 }/*heading-*/
 body{ 
-    background: #080808;
-    color: #fff;
+    background: #07020D;
+    color:#FAFAFA;
     
 }
 #header{
     width: 100%;
     height: 100vh;
-    background-image: url(pic/meme.jpg);
+    background-image: url(pic/3758.jpg);
     background-size: cover;
-    background-position: center;
+    background-position: 0px -300px;
 }
 .container{
     padding: 10px 5%;
@@ -36,7 +36,7 @@ nav ul li{
 
 }
 nav ul li a{
-    color: #fff;
+    color: #FAFAFA;
     text-decoration: none;
     font-size: 18 px;
     position: relative;
@@ -45,7 +45,7 @@ nav ul li a::after{ /*Responsible hover*/
     content: '';
     width: 0%;
     height: 3px;
-    background: #ff04ff;
+    background: #ff1494;
     position: absolute;
     left: 0;
     bottom: -6px;
@@ -56,6 +56,7 @@ nav ul li a:hover::after{
 }
 .header-text{
     margin-top: 10%;
+    margin-left: 5%;
     font-size: 30px;
 }
 .header-text h1{
@@ -63,14 +64,13 @@ nav ul li a:hover::after{
     margin-top: 20px;
 }
 .header-text h1 span{
-    color:#ff04ff;
+    color: #ff1494;
 }
 
 /* -----------about------------------------------------------------------------------------ */
 #about{
-    background: rgb(0,0,0);
-    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,212,225,1) 6%, rgba(9,149,56,1) 37%, rgba(2,89,182,1) 84%, rgba(0,0,0,1) 100%);
-    color: gray;
+    background: #3c0241;
+    color: #ffffff62;
     /* background-color: #3c00ff; */
     /* padding-left: 50px; */
 }
@@ -97,14 +97,14 @@ nav ul li a:hover::after{
 .sub-title{
     font-size: 50px;
     font-weight: 600;
-    color: #fff;
+    color: #FAFAFA;
 }
 .about-col-2 p{
     font-size: 20px;
     line-height: 30px;
 }
 .about-col-2 p span{
-    color: #ff04ff;
+    color: #ff1494;
 }
 #important{
     font-weight: 600;
@@ -113,8 +113,7 @@ nav ul li a:hover::after{
 
 /* ----------------POSN----------------------------------------------------------------- */
 #POSN{
-    background: rgb(0,0,0);
-background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(2,0,36,1) 6%, rgba(9,9,121,1) 37%, rgba(0,212,225,1) 84%, rgba(0,0,0,1) 100%);
+    background: #B5427B;
     /* background-color: rgb(0, 76, 51); */
 }
 .show {
@@ -139,6 +138,7 @@ background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(2,0,36,1) 6%, rgba(9,9,
 .show .menu ul:hover{
     opacity: 1;
 }
+
 .show .info{
     position: absolute;
     left: 250px;
@@ -147,6 +147,8 @@ background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(2,0,36,1) 6%, rgba(9,9,
     transition: all 0.5s;
 }
 .show .info img{
+    width: 350px;
+    height: auto;
     margin-left : 150px;
     margin-right : 50px;
     object-fit: cover;
@@ -157,10 +159,23 @@ background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(2,0,36,1) 6%, rgba(9,9,
     opacity: 0;
     transform: translateY(50px);
 }
-
+.show .info h3{
+    font-size: 25px;
+    line-height: 50px;
+}
+.show .info p{
+    font-size: 18px;
+}
+.show .info ul{
+    font-size: 18px;
+}
 /* ----------------certicicates-------------------------------------------------------------------------- */
 #cer{
-    background-color: #f387ab;
+    background-color: #FBC2B5;
+    
+}
+#cer .sub-title{
+    color: #ff1494;
 }
 .box-container{
     /* display: flex; */
@@ -186,7 +201,7 @@ background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(2,0,36,1) 6%, rgba(9,9,
 }
 .box-container .box:hover{
     opacity: 1;
-    background-color: #e1306c;
+    background-color: #ff1494;
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
     
 }
@@ -196,13 +211,14 @@ background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(2,0,36,1) 6%, rgba(9,9,
 }
 .box .content{
     margin-top: 20px;
+    padding: 0 10px;
     text-align: center;
     font-size: large;
     opacity: 0;
     transition: opacity 0.4s ease;
 }
 .box .image img{
-    width: 400px;
+    width: auto;
     height: 250px;
 }
 
@@ -220,7 +236,7 @@ background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(2,0,36,1) 6%, rgba(9,9,
     transition: all 0.4s ease;
 }
 #show-more:hover{
-    background-color: #e1306c;
+    background-color: #ff1494;
     color: #fff;
     border: 1px solid #fff;
 }
@@ -229,7 +245,7 @@ background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(2,0,36,1) 6%, rgba(9,9,
 
 /* ----------------contact-------------------------------------------------------------------------- */
 #contact{
-    background-color: #f70e0e;
+    background-color: #FD6BA5;
 }
 #contact .row{
     display: inline-flex;
