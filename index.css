@@ -45,7 +45,7 @@ nav ul li a::after{ /*Responsible hover*/
     content: '';
     width: 0%;
     height: 3px;
-    background: #ff1494;
+    background: #ffd60a;
     position: absolute;
     left: 0;
     bottom: -6px;
@@ -64,12 +64,12 @@ nav ul li a:hover::after{
     margin-top: 20px;
 }
 .header-text h1 span{
-    color: #ff1494;
+    color: #ffd60a;
 }
 
 /* -----------about------------------------------------------------------------------------ */
 #about{
-    background: #3c0241;
+    background: #000814;
     color: #ffffff62;
     /* background-color: #3c00ff; */
     /* padding-left: 50px; */
@@ -104,7 +104,7 @@ nav ul li a:hover::after{
     line-height: 30px;
 }
 .about-col-2 p span{
-    color: #ff1494;
+    color: #ffc300;
 }
 #important{
     font-weight: 600;
@@ -113,7 +113,7 @@ nav ul li a:hover::after{
 
 /* ----------------POSN----------------------------------------------------------------- */
 #POSN{
-    background: #B5427B;
+    background: #001d3d;
     /* background-color: rgb(0, 76, 51); */
 }
 .show {
@@ -171,11 +171,11 @@ nav ul li a:hover::after{
 }
 /* ----------------certicicates-------------------------------------------------------------------------- */
 #cer{
-    background-color: #FBC2B5;
+    background-color: #003566;
     
 }
 #cer .sub-title{
-    color: #ff1494;
+    color: white;
 }
 .box-container{
     /* display: flex; */
@@ -201,7 +201,7 @@ nav ul li a:hover::after{
 }
 .box-container .box:hover{
     opacity: 1;
-    background-color: #ff1494;
+    background-color: #ffc300;
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
     
 }
@@ -216,6 +216,7 @@ nav ul li a:hover::after{
     font-size: large;
     opacity: 0;
     transition: opacity 0.4s ease;
+    color: black;
 }
 .box .image img{
     width: auto;
@@ -231,13 +232,14 @@ nav ul li a:hover::after{
     font-size: large;
     color: #334;
     text-align: center;
-    background-color: #fff;
+    background-color: #000814;
     cursor: pointer;
     transition: all 0.4s ease;
+    color: white;
 }
 #show-more:hover{
-    background-color: #ff1494;
-    color: #fff;
+    background-color: #ffc300;
+    color: black;
     border: 1px solid #fff;
 }
 
@@ -245,7 +247,7 @@ nav ul li a:hover::after{
 
 /* ----------------contact-------------------------------------------------------------------------- */
 #contact{
-    background-color: #FD6BA5;
+    background-color: #000814;
 }
 #contact .row{
     display: inline-flex;
@@ -324,7 +326,7 @@ nav ul li a:hover::after{
 .row .Phone:hover span,
 .row .Phone:hover .tooltip,
 .row .Phone:hover .tooltip:before{
-    background: black;
+    background: red;
 }
 
 .row .Instagram:hover span,
